@@ -11,6 +11,7 @@ const Landing = () => {
     <div>
       <BrowserRouter>
         <Routes>
+          
           <Route path="/home" element={<Home />} />
           <Route path="/registartion" element={<Registartion />} />
           <Route path="/forgetpassword" element={<ForgetPassword />} />
