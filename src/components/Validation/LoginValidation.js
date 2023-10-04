@@ -13,6 +13,7 @@ export const LoginValidation = (values) => {
     }else if(values.password.length>10){
         error.password = "Password max should be 10 characters"
     }
+    
     return error
     // if(!values.email){
     //     errors.email="email is required"

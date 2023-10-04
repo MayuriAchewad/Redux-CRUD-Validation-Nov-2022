@@ -15,5 +15,4 @@ export const yupValidation = Yup.object({
     username: Yup.string().min(2).max(8).required("please enter your user name"),
     password: Yup.string().min(5).max(8).required("please enter your password"),
     confirmpassword: Yup.string().min(5).max(8).required().oneOf([Yup.ref('password'), null], 'password must match')
-
 })

@@ -17,6 +17,7 @@ export const Login = () => {
   const navigate = useNavigate();
   const [values, setValues] = useState({
     email: "",
+    
     password: "",
   });
   const [msg, setMsg] = useState("");

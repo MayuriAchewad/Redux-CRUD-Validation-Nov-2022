@@ -71,6 +71,7 @@ export const Registartion = () => {
                   error={errors.name}
                   helperText={errors ? <span> {errors.name}</span> : ""}
                 />
+                
               </Grid>
               <Grid item xs={12}>
                 <TextField

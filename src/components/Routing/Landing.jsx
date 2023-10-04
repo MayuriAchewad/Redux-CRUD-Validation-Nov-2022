@@ -9,6 +9,7 @@ import { Registartion } from "../Registartion";
 const Landing = () => {
   return (
     <div>
+      
       <BrowserRouter>
         <Routes>
           <Route path="/home" element={<Home />} />

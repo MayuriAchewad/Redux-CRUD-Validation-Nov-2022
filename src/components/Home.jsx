@@ -13,6 +13,7 @@ const Home = () => {
     //   if (token) {
     //     navigate("/home");
     //   }
+    
     !token && navigate("/");
   }, []);
   return (

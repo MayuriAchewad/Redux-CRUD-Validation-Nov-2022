@@ -8,7 +8,7 @@ export const employeReducer = (state = {
                 employe: action.payload
             }
             default:
-                return state
+                return state;
     }
  return state
 }
